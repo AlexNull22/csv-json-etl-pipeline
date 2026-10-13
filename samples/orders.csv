@@ -1,0 +1,11 @@
+order_id,customer_name,customer_email,order_date,amount,currency,status
+0001, Alice  Example , ALICE@example.com ,2026-10-01,49.90,usd,paid
+0002,Bob Example,bob@example.com,2026/10/02,10,EUR,
+0003,Carol Example,carol@example.com,2026-10-03,20.50,GBP,paid
+0003,Carol Example,carol@example.com,2026-10-03,20.50,GBP,paid
+0004,,dana@example.com,2026-10-04,18.00,USD,paid
+0005,Eve Example,not-an-email,2026-10-05,22.00,USD,paid
+0006,Frank Example,frank@example.com,2026-02-30,25.00,USD,paid
+0007,Grace Example,grace@example.com,2026-10-07,-1.00,USD,paid
+0008,Henry Example,henry@example.com,2026-10-08,12.00,USD,paid
+0009,Iris Example,iris@example.com,2026-10-09,3.141,USD,paid
