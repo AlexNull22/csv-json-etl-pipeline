@@ -1,0 +1,8 @@
+[
+  {"id":"0001", "name":"Alice Example", "email":"alice@example.com", "date":"2026-10-01", "total":"49.90", "ccy":"USD", "state":"paid"},
+  {"id":"0010", "name":"Bob Example", "email":"bob@example.com", "date":"2026-10-10", "total":15.25, "ccy":"EUR", "state":null},
+  {"id":"0011", "name":"李明", "email":"li@example.com", "date":"2026-10-11", "total":"0", "ccy":"usd", "state":"pending"},
+  {"id":"0008", "name":"Henry Example", "email":"henry@example.com", "date":"2026-10-08", "total":"13.00", "ccy":"USD", "state":"paid"},
+  {"id":"0012", "name":"Jay Example", "email":"jay@example.com", "date":"2026-10-12", "total":"9", "ccy":"XYZ", "state":"paid"},
+  {"id":"0013", "name":"Kay Example", "email":"kay@example.com", "date":"2026-10-12", "total":"8", "ccy":"USD", "state":"unknown"}
+]
