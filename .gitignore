@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+output/
+.env
+.env.*
+review/
+项目说明.md
+evidence/github_upload.png
