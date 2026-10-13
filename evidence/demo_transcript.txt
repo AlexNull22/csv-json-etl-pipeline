@@ -1,0 +1,72 @@
+{
+  "verified_at": "2026-10-13T21:15:27.494975+08:00",
+  "postgresql_version": "18.6",
+  "pandas_version": "3.0.6",
+  "psycopg_version": "3.3.6",
+  "first_run": {
+    "run_id": "20261013_211527_e080f50c",
+    "mode": "database",
+    "status": "completed",
+    "database_status": "committed",
+    "input_rows": 16,
+    "valid_rows": 5,
+    "rejected_rows": 9,
+    "duplicates_removed": 2,
+    "loaded_rows": 5
+  },
+  "second_run": {
+    "run_id": "20261013_211527_c4cb7b8c",
+    "mode": "database",
+    "status": "completed",
+    "database_status": "committed",
+    "input_rows": 16,
+    "valid_rows": 5,
+    "rejected_rows": 9,
+    "duplicates_removed": 2,
+    "loaded_rows": 5
+  },
+  "database_customers": 4,
+  "database_orders_after_two_runs": 5,
+  "orders": [
+    [
+      "0001",
+      "alice@example.com",
+      "2026-10-01",
+      "49.90",
+      "USD",
+      "paid"
+    ],
+    [
+      "0002",
+      "bob@example.com",
+      "2026-10-02",
+      "10.00",
+      "EUR",
+      "pending"
+    ],
+    [
+      "0003",
+      "carol@example.com",
+      "2026-10-03",
+      "20.50",
+      "GBP",
+      "paid"
+    ],
+    [
+      "0010",
+      "bob@example.com",
+      "2026-10-10",
+      "15.25",
+      "EUR",
+      "pending"
+    ],
+    [
+      "0011",
+      "li@example.com",
+      "2026-10-11",
+      "0.00",
+      "USD",
+      "pending"
+    ]
+  ]
+}

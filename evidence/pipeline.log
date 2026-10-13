@@ -1,0 +1,4 @@
+2026-10-13 21:15:27,401 INFO Read input samples/orders.csv: 10 rows
+2026-10-13 21:15:27,403 INFO Read input samples/orders.json: 6 rows
+2026-10-13 21:15:27,409 INFO Validation: 5 valid, 9 rejected, 2 duplicates removed
+2026-10-13 21:15:27,453 INFO PostgreSQL transaction committed: 5 orders

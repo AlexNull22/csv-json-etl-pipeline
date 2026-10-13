@@ -1,0 +1,14 @@
+{
+  "archive": "ETL_Delivery.zip",
+  "file_count": 21,
+  "all_files_match_source": true,
+  "zip_integrity_passed": true,
+  "sha256": "4389a7021134f9f37a708445e298ce18a38345d49bcf66a592eb344fb838c2fd",
+  "excluded": [
+    ".venv",
+    "output",
+    "review",
+    "PostgreSQL runtime",
+    "credentials"
+  ]
+}

@@ -1,0 +1,6 @@
+order_id,customer_name,customer_email,order_date,amount,currency,status,source_file,source_row
+0001,Alice Example,alice@example.com,2026-10-01,49.90,USD,paid,samples/orders.csv,2
+0002,Bob Example,bob@example.com,2026-10-02,10.00,EUR,pending,samples/orders.csv,3
+0003,Carol Example,carol@example.com,2026-10-03,20.50,GBP,paid,samples/orders.csv,4
+0010,Bob Example,bob@example.com,2026-10-10,15.25,EUR,pending,samples/orders.json,2
+0011,李明,li@example.com,2026-10-11,0.00,USD,pending,samples/orders.json,3

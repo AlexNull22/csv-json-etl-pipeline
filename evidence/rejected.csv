@@ -1,0 +1,10 @@
+order_id,customer_name,customer_email,order_date,amount,currency,status,source_file,source_row,reason
+0004,,dana@example.com,2026-10-04,18.00,USD,paid,samples/orders.csv,6,missing customer_name
+0005,Eve Example,not-an-email,2026-10-05,22.00,USD,paid,samples/orders.csv,7,invalid customer_email
+0006,Frank Example,frank@example.com,2026-02-30,25.00,USD,paid,samples/orders.csv,8,invalid order_date
+0007,Grace Example,grace@example.com,2026-10-07,-1.00,USD,paid,samples/orders.csv,9,"invalid amount (0..9999999999.99, at most 2 decimals)"
+0009,Iris Example,iris@example.com,2026-10-09,3.141,USD,paid,samples/orders.csv,11,"invalid amount (0..9999999999.99, at most 2 decimals)"
+0012,Jay Example,jay@example.com,2026-10-12,9,XYZ,paid,samples/orders.json,5,unsupported currency
+0013,Kay Example,kay@example.com,2026-10-12,8,USD,unknown,samples/orders.json,6,unsupported status
+0008,Henry Example,henry@example.com,2026-10-08,12.00,USD,paid,samples/orders.csv,10,conflicting records for order_id
+0008,Henry Example,henry@example.com,2026-10-08,13.00,USD,paid,samples/orders.json,4,conflicting records for order_id
